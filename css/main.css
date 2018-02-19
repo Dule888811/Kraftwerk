@@ -1,0 +1,595 @@
+body {
+	margin: auto;
+	padding: 0px;
+}
+a {
+	color: black;
+	text-decoration: none;
+	}
+	
+#close_nav img  { display:none;}
+#image_nav img {display:none;}
+ul {
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+}
+
+li {
+    font-family: Verdana;
+    font-size:12px;
+    color:#000;
+    font-weight: bold;
+}
+nav a {
+border-bottom: 2px solid black;
+    padding-bottom: 5px;
+	padding-right: 10px;
+}
+header {
+	background-color: rgb(251, 241, 19);  	
+}
+#logoNav {
+    clear: both;
+    height: 100px;
+    padding-top:50px;
+    overflow: hidden;
+}
+header nav {float: right;}
+header nav ul li {display: inline;}
+#logo {float: left;}
+
+.interior {
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.intor {
+background-image: url("../images/introBG.png");
+background-repeat: repeat-x;
+padding-bottom: 50px;
+}
+.wraper_intro{
+	 text-align: center;
+}
+.wraper_intro p{
+	margin :auto;
+	
+}
+.intor h1 {
+    font-size: 60px;
+    font-family: Verdana;
+    font-weight: bold;
+    color:#000;
+}
+.intor h2{
+	font-size:30px;
+    font-family: Verdana;
+    color:#000;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.content .interior {
+	padding-top:50px;
+        padding-bottom: 50px;
+}
+
+input[type=button]:hover {
+    background-color: #FFCC00;
+}
+.content .interior h3{
+	font-size:30px;
+	font-family: Verdana;
+	font-weight: bold;
+}
+footer .interior {padding: 20px 0;overflow: hidden;}
+footer .interior h4{
+	font-size: 13px;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #999;
+}
+footer .interior a{
+	font-size: 13px;
+	font-family:Verdana;
+	color:#666;
+	text-decoration: none;
+}
+footer .footer_menu {
+    	float:left;
+	width: 25%;
+}
+footer .interior .a{
+        padding: 0;
+}
+footer .interior ul{
+	float:left;
+}
+footer .interior ul li {padding-bottom: 10px;}
+.footer_botom p{
+	font-size: 13px;
+	font-family: Verdana;
+	color: #999;
+        padding: 20px 0;
+}
+input[type=text] {
+	width: 100%;
+    border:1px solid #C8C8C8  ;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+input[type=email] {
+	width: 100%;
+
+    border:1px solid #C8C8C8  ;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+.image img{
+position: fixed;
+    top: 40%;
+}
+.image {
+cursor: pointer;
+}
+footer{
+	background-color: #F0F0F0  ;
+	height: 200px;
+}
+ .lbl_columm  .margin {
+ margin-left:10px;
+ }
+.div_titlee{
+width:100%
+}
+#auto {
+width:100%
+	}
+form {
+  display: inline-block;
+  width: 100%;
+}
+
+.testForm{
+	width:50%;
+	display: inline-block;
+	float:left;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testForm:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+	padding-top: 6px;
+	
+}
+.testForm:last-child .row {
+padding :8px;
+}
+
+.testForm .row {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+	clear:both;
+	padding:16px;
+}
+
+.testForm .row input[type="text"]{
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 7px;
+	cursor:auto;
+}
+#datapicker {
+  background: url("../images/calendar.png") right center no-repeat;
+  background-size: 16px;
+  padding-right: 20px;
+  background-position: 95% 50%;
+  }
+.testForm .row label {
+	padding-left: 3px;
+	font-size: 13px;
+  font-family: Verdana;
+  color:#333;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+ footer .interior .footer_menu {
+ padding-left: 13px;
+    box-sizing: border-box;
+}
+.testForm .row input[type=button] {
+	width:100%;
+    color:#000;
+    font-family: Verdana;
+    font-size:20px;
+    padding:14px;
+    background-color:rgba(255,204,0,1);
+    border:1px solid #ffcc00;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight: bold;
+}
+.testForm .row input[type=button]:hover {
+    background-color:#FFCC00;
+}
+.testForm .row  p{
+	font-family: Verdana;
+	color:#999;
+	font-size: 13px;
+}
+.testForm.row {
+margin: 10px;
+}
+.div_datapicker{
+	float:left;
+	width:50%
+}
+.div_datapickerr{
+	float:left;
+	width:50%
+}
+.div_title{
+float:right;
+width:50%;
+}
+.div_titler{
+float:right;
+width:45%;
+margin-left: 5%;
+}
+.lbl_column{
+	float:left;
+	clear:both;
+	width:100%
+}
+.lbl_columm .margin {
+margin-left:10px
+}
+.ui-datepicker-trigger{
+      float: left;
+  padding-left: 180px;
+       width: 15px;
+}
+.float_left{
+	float:left;
+}
+.testForm .row input[type=datetime-local]{
+width:100%;
+cursor:auto;
+}
+.testForm .row select{
+margin-left:10px;
+}
+
+ .testForm .row input[type="radio"]{
+ display:none;
+}
+.testForm .row input[type="radio"] + label{
+ background: url("../images/radio.png") left center no-repeat;
+ background-size: 13px;
+  padding-left: 23px;
+    padding-bottom: 0px;
+}
+.testForm .row input[type="radio"]:checked + label{
+ background-image: url("../images/radio-active.png");
+}
+.testForm:last-child  .row input[type="checkbox"]{
+ display:none;
+}
+.testForm:last-child  .row  input[type="checkbox"] + label{
+ background: url("../images/checkbox.png") left center no-repeat;
+ padding-left: 27px;
+  background-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+ .testForm:last-child  .row input[type="checkbox"]:checked + label{
+ background-image: url("../images/checkbox-active.png");
+}
+.testForm .row .titlelist {
+height: 30px;
+  width: 92%;
+   border:1px solid #C8C8C8  ;
+    border-radius:5px;
+    cursor:pointer;
+	padding-left: 8px;
+	margin-left: 19px;
+}
+.testForm .row .textarea {
+ border:1px solid #C8C8C8  ;
+ border-radius:5px;
+ cursor:pointer;
+ height: 104px;
+ width: 95%;
+ cursor:auto;
+}
+#logo {
+cursor: pointer;
+}
+ #title {
+padding-left : 21px;
+ }
+
+
+@media screen and (max-width:768px) {
+    header {
+        background-color: rgb(251, 241, 19); 
+    }
+    #logoNav {padding:20px;}
+    .intor {
+        background-image: url("../images/introBG.png");
+        background-repeat: repeat-x;
+        box-sizing: border-box;
+        clear:both;
+    }
+	.intor h1 {
+        font-size: 50px;
+        font-family: Verdana;
+        font-weight: bold;
+        color:#000;
+    }
+    .intor h2{
+        font-size:25px;
+        font-family: Verdana;
+        color:#000;
+		}
+    .content .interior {width: 100%;
+		max-width: 360px;;}
+    .testForm {width: 100%;}
+    .testForm .row input[type="text"]{
+        width: 104%;
+        box-sizing: border-box;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 7px;
+    }
+    .testForm .row label {
+        padding-left: 3px;
+        font-size: 13px;
+        font-family: Verdana;
+        color:#333;
+        padding-bottom: 8px;
+        display: inline-block;
+    }
+    .testForm .row input[type=button] {
+        width:100%;
+        color:#000;
+        font-family: Verdana;
+        font-size:20px;
+        padding:14px;
+        background-color:rgba(255,204,0,1);
+        border:1px solid #ffcc00;
+        border-radius:5px;
+        cursor:pointer;
+        font-weight: bold;
+    }
+    .testForm .row input[type=button]:hover {
+        background-color:#FFCC00;
+    }
+    .testForm .row  p{
+        font-family: Verdana;
+        color:#999;
+    }
+    .testForm.row {
+        margin: 10px;
+    }
+    .div_datapicker#auto,
+    .div_titlee {
+        width: auto;
+    }
+    .div_datapickerr,
+    .div_titler {
+        float: left;
+        width: auto;
+    }
+
+    .lbl_column{
+        float:left;
+        clear:both;
+        width:100%
+    }
+    .ui-datepicker-trigger{
+        float: left;
+        padding-left: 180px;
+        width: 15px;
+    }
+    .float_left{
+        float:left;
+    }
+    .testForm .row input[type=datetime-local]{
+        width:100%;
+    }
+    .testForm .row select{
+        margin-left:10px;
+
+    }
+    .testForm .row input[type="radio"]{
+        display:none;
+    }
+    .testForm .row input[type="radio"] + label{
+        background: url("../images/radio.png") left center no-repeat;
+        background-size: 13px;
+        padding-left: 23px;
+        padding-bottom: 0px;
+    }
+    .testForm .row input[type="radio"]:checked + label{
+        background-image: url("../images/radio-active.png");
+    }
+    .testForm:last-child  .row input[type="checkbox"]{
+     display:none;
+    }
+    .testForm:last-child  .row  input[type="checkbox"] + label{
+     background: url("../images/checkbox.png") left center no-repeat;
+     padding-left: 27px;
+      background-size: 20px;
+      padding-top: 10px;
+      padding-bottom: 8px;
+    }
+     .testForm:last-child  .row input[type="checkbox"]:checked + label{
+     background-image: url("../images/checkbox-active.png");
+    }
+    .testForm .row .titlelist {
+    height: 30px;
+      width: 104%;
+       border:1px solid #C8C8C8  ;
+        border-radius:5px;
+        cursor:pointer;
+            margin-left: 22px;
+    }
+
+    .testForm .row .textarea {
+     border:1px solid #C8C8C8  ;
+     border-radius:5px;
+     cursor:pointer;
+     height: 104px;
+     width:100%;
+    }
+     #title {
+    padding-left : 21px;
+     }
+    .lbl_columm .margin {
+    margin-left:-44px;
+            }
+	.image img{
+	position: fixed;
+    top: 540px;
+	}	
+	#wraper_nav	ul{
+		display:none;
+		}
+		#close_nav img  { display:none;
+		}
+		#image_nav img {display:block;
+		width: 50px;
+		}
+.navmobile {
+	position: absolute;
+	top:0px;
+	right:0px;
+	
+}
+.navmobile #close_nav {
+ 	height: 74px;
+   background-color:#FFFFFF; 
+  margin-right: 106px;
+  box-shadow: 0px 1px 22px #888888;
+  width: 113px;
+}
+  
+.navmobile #close_nav img {
+	padding-top: 27px;
+	padding-left: 23px;
+    padding-right: 18px;
+	display:block;
+	width: 25px;
+}
+		
+.navmobile #wraper_nav ul {
+	display:block;
+	margin-top: -74px;
+	}
+.navmobile #wraper_nav li {
+	display: block;
+  padding-bottom: 31px;
+  background: -webkit-linear-gradient(left, #FFFFFF, #F5F5F5);
+  padding-left: 10px;
+      padding-top: 30px;
+	  border-bottom: 2px solid 	#DCDCDC;
+	  padding-right:10px;
+  }
+  .navmobile #wraper_nav li  .last { border-bottom: none;  }
+ .navmobile #wraper_nav a {
+  text-decoration: none;
+  border-bottom: none;
+}
+.navmobile #wraper_nav {
+float: right;
+    background: -webkit-linear-gradient(left, #FFFFFF, #F5F5F5);
+	  box-shadow:0px 58px 22px #888888;
+	height: 1524px;
+	width: 150px;
+	}
+
+ .navmobile  #image_nav img {
+		display:none;
+	}
+	
+	}
+@media screen and (max-width:480px) {
+    #logo {width: 104px;}
+    #logo img {max-width: 100%;}
+    .intor h1 {
+        font-size: 25px;
+        font-family: Verdana;
+        font-weight: bold;
+        color:#000;
+    }
+    .intor h2{
+        font-size:20px;
+        font-family: Verdana;
+        color:#000;
+        font-weight: normal;
+    }
+    .content .interior {width: auto;}
+    .content .interior h3{
+        font-size:25px;
+        font-family: Verdana;
+        font-weight: bold;
+        color:#000;
+    }
+    .div_datapicker{
+        float: left;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .div_title{
+        float:right;
+        width:100%;
+        margin-bottom: 16px;
+    }
+    #title {
+        padding-left: 0px;
+    }		
+    .testForm .row .titlelist {
+        margin-left: 0;
+    }
+    .testForm .row input[type="text"] {
+        width: 104%;
+    }
+    footer {
+        text-align: center;
+        height: auto;
+    }
+    footer .interior {padding:0;border-bottom: 1px solid #999;}
+    footer .interior .footer_menu {
+        float: none;
+        text-align: center;
+        width: 100%;
+        border-top: 1px solid #999;
+        padding: 20px 0;
+    }
+    footer .interior .footer_menu ul {
+        float: none;
+    }
+	.image img{
+	display:none;
+	}	
+	#image_nav img {display:block;
+					width: 35px;
+	}
+	.navmobile #close_nav img {
+	width:25px;
+	}
+}
